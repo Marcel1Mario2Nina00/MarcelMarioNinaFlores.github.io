@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <div class="nav-bag">
+        <nav class="NavegadorPrincipar contenerdo">
+            <a href="index.html" title="Paguina Principal">Home Nosotros</a>
+            <a href="Servicios.html">Servicios</a>
+            <a href="Contactos.html" title="Formulario">Contacto</a>
+        </nav>
+    </div>
+    <section>
+        <div class="contact-container">
+            <div class="form-container">
+                <h1>Contacto</h1>
+                <form action="" class="contact-form">
+                    <label for="nomest">Nombre y Apellido</label>
+                    <input type="text" placeholder="Nombre y Apellido" id="nomest" required>
+                    <label for="Email">Email</label>
+                    <input type="email" placeholder="Email" id="celest" required>
+                    <label for="asunto">asunto</label>
+                    <input type="text"id="asunto" placeholder=" Asunto" required>
+                    Desde donde nos escribes
+                    <select name="select" class="Secc" id="Paises">
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Chile">Chile</option>
+                    </select>
+                    Mensaje
+                    <textarea name="" id="" cols="30" rows="10" placeholder="cualquier mensaje..." required></textarea>
+                    <button type="button" class="send-button" onclick="recogerDatos()">Enviar</button>
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15195.125527794457!2d-63.14430479999999!3d-17.8019688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbo!4v1651623957554!5m2!1sen!2sbo" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="Contacto.js"></script>
+</body>
+</html>
